@@ -5,4 +5,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="subtitles">#FF808080</color>
+    <color name="MAGREZA">#FFFF33</color>
+    <color name="NORMAL">#33FF33</color>
+    <color name="SOBREPESO">#FF4500</color>
+    <color name="OBESIDADE">#FF0000</color>
 </resources>

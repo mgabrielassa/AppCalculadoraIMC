@@ -20,8 +20,8 @@
             app:tint="@color/white"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_margin="16dp"
-            android:layout_marginTop="36dp"
+            android:layout_margin="24dp"
+            android:layout_marginTop="64dp"
             android:src="@drawable/ic_topimage" />
 
         <TextView
@@ -64,7 +64,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A classificação do seu IMC é:"
-        android:layout_marginTop="48dp"/>
+        android:layout_marginTop="54dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_900"/>
 
     <TextView
         android:id="@+id/tv_classificacao"
@@ -72,7 +74,6 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="32sp"
-        tools:text="NORMAL"
-        android:textColor="@color/primary_900"/>
+        tools:text="NORMAL" />
 
 </LinearLayout>
